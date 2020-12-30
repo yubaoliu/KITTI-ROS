@@ -78,7 +78,7 @@ def publish_ego_car(ego_car_pub):
     mesh_marker.id = -1
     mesh_marker.lifetime = rospy.Duration()
     mesh_marker.type = Marker.MESH_RESOURCE
-    mesh_marker.mesh_resource = "package://kitti_tutorial/AC_Cobra_269/ShelbyWD.dae"
+    mesh_marker.mesh_resource = "package://kitti_tutorial/3dModels/AC_Cobra_269/ShelbyWD.dae"
     # mesh_marker.mesh_resource = "package://kitti_tutorial/Audi_R8/Models/Audi R8.dae"
 
     mesh_marker.pose.position.x = 0.0
